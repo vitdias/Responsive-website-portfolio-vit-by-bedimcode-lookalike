@@ -136,6 +136,13 @@ a {
     text-decoration: none;
 }
 
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: var(--body-font);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -405,6 +412,8 @@ img {
 
 .button--small {
     padding: .75rem 1rem;
+    font-size: 16px; /* ajuste para o tamanho de fonte desejado */
+    box-shadow: none;
 }
 
 .button--link {

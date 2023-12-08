@@ -17,7 +17,7 @@
     <title>VIT Portfolio Website</title>
 </head>
 
-<body>
+<body class="dark-theme">
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -64,7 +64,7 @@
 
                 <!-- Theme change button -->
 
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <i class="uil uil-moon change-theme uil-sun" id="theme-button"></i>
 
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"> </i>
@@ -159,23 +159,23 @@
 
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">08+</span>
+                            <span class="about__info-title">09+</span>
                             <span class="about__info-name">Years of experience<br> with data</span>
                         </div>
 
                         <div>
-                            <span class="about__info-title">04+</span>
+                            <span class="about__info-title">03+</span>
                             <span class="about__info-name">Years of <br> Credit Risk experience</span>
                         </div>
 
                         <div>
-                            <span class="about__info-title">04+</span>
+                            <span class="about__info-title">06+</span>
                             <span class="about__info-name">Years of <br> Fraud Risk experience</span>
                         </div>
                     </div>
 
                     <div class="about__buttons">
-                        <a download="" href="assets/pdf/Vitor Resume - 112023 v2.pdf" class="button button--flex">
+                        <a download="" href="assets/pdf/Vitor Resume - 112023 v3.pdf" class="button button--flex">
                             Download CV<i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
@@ -355,7 +355,7 @@
                 </div>
 
                 <div>
-                    <h3 class="qualification__title">Credit Risk Analyst</h3>
+                    <h3 class="qualification__title"> Credit Data Analyst - Credit Cards</h3>
                     <span class="qualification__subtitle">Banco Losango</span>
                     <div class="qualification__calendar">
                        <i class="uil uil-calendar-alt"></i>
@@ -367,7 +367,7 @@
             <!--==================== QUALIFICATION 3 ====================--> 
             <div class="qualification__data">
                 <div>
-                    <h3 class="qualification__title">Fraud Prevention Strategy Analyst</h3>
+                    <h3 class="qualification__title">Fraud Data Analyst <br>- Credit Cards</h3>
                     <span class="qualification__subtitle">Bradesco Cartões</span>
                     <div class="qualification__calendar">
                        <i class="uil uil-calendar-alt"></i>
@@ -390,7 +390,7 @@
                 </div>
 
                 <div>
-                    <h3 class="qualification__title">Sr. Fraud Prevention Analyst</h3>
+                    <h3 class="qualification__title">Sr. Fraud Data Analyst <br>- Digital Accounts</h3>
                     <span class="qualification__subtitle">Banco Safra</span>
                     <div class="qualification__calendar">
                        <i class="uil uil-calendar-alt"></i>
@@ -402,7 +402,7 @@
             <!--==================== QUALIFICATION 5 ====================--> 
             <div class="qualification__data">
                 <div>
-                    <h3 class="qualification__title">Sr. Fraud Marketplace Analyst</h3>
+                    <h3 class="qualification__title">Sr. Data Analyst - Marketplace Fraud</h3>
                     <span class="qualification__subtitle">Shopee</span>
                     <div class="qualification__calendar">
                         <i class="uil uil-calendar-alt"></i>
@@ -626,7 +626,7 @@
                     <h3 class="portfolio__title">Streamlit Dashboard</h3>
                     <p class="portfolio__description">A dashboard web application, made with python streamlit that show charts and other data viz assets from a dataframe created with random data</p>
                     <a href="https://vitdias-streamlit-dashboard-vit-bank-ruu37h.streamlit.app/" target="_blank" class="button button--flex button--small portfolio__button">
-                        Demo
+                        Go to dashboard
                         <i class="uil uil-arrow-right button__icon"></i> 
                     </a>
                 </div>
@@ -639,9 +639,9 @@
 
                 <div class="portfolio_">
                     <h3 class="portfolio__title">Bot to add recruiters in Linkedin</h3>
-                    <p class="portfolio__description">A script that can be executed daily and add automatically recruiters in Linkedin. The script also enable you to filter the location, the level of the connections and also a specific role, as "tech recruiter, for example."</p>
+                    <p class="portfolio__description">A script that can be executed daily and add automatically recruiters in Linkedin. The script also enable you to filter the location, the level of the connections and also a specific role, as "tech recruiter", for example.</p>
                     <a href="https://github.com/vitdias/adding_linkedin_connections" target="_blank" class="button button--flex button--small portfolio__button">
-                        Demo
+                        Go to repo
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
@@ -650,14 +650,14 @@
             <!--==================== PORTFOLIO 3 ====================-->
         
             <div class="portfolio__content grid swiper-slide">
-                <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                <img src="assets/img/axie protfolio3 croped.png" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
-                    <h3 class="portfolio__title">Online store</h3>
-                    <p class="portfolio__description">Website adaptable to all devices, with 
-                        ui components and animated interactions.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
+                    <h3 class="portfolio__title">Web scraper and Telegram notificator bot</h3>
+                    <p class="portfolio__description">I created a web scraper bot that caught at every minute, for ~1 week, the fee to withdrawal SLP (a crypto from a NFT game called Axie Infinity). After that, I created another bot, 
+                                                      that started sending notification in a telegram group when the fee was below the 5% percentile of the fees that I got with the first bot.</p>
+                    <a href="https://github.com/vitdias/axie-infinity-telegram-notify-transaction-tax" target="_blank" class="button button--flex button--small portfolio__button">
+                        Go to repo
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
@@ -820,34 +820,34 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://formspree.io/f/myyqrjzv" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="name" class="contact__label">Name</label>
+                            <input type="text" name="name" id="name" class="contact__input">
                         </div>
 
                         <div class="contact__content">
-                            <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
+                            <label for="email" class="contact__label">E-mail</label>
+                            <input type="email" name="email" id="email" class="contact__input">
                         </div>
                     </div>
 
                     <div class="contact__content">
-                        <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
+                        <label for="project" class="contact__label">Project</label>
+                        <input type="text" name="project" id="project" class="contact__input">
                     </div>
 
                     <div class="contact__content">
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button type="submit" class="button button--flex button--small" target="_blank">
                             Send message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>
